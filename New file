@@ -1,12 +1,12 @@
-let string = "madam";
-let bag = ""
-for (let i = string.length; i >= 0; i--) {
-  bag += string[i];
+let str = "masai";
+let new_str = ""
+for (let i = str.length; i >= 0; i--) {
+  new_str += str[i];
 
 }
-if (bag = string) {
-  console.log(string, "is palindrome")
+if (new_str == str) {
+  console.log(str, "is palindrome")
 }
 else {
-  console.log(string, "is not a palindrome")
+  console.log(str, "is not a palindrome")
 }
